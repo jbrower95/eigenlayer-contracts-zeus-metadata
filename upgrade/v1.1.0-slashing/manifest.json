@@ -1,0 +1,20 @@
+{
+  "name": "slashing-rewards-v2.1",
+  "from": "1.0.3",
+  "to": "1.1.0",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol"
+    }
+  ],
+  "commit": "64c028333856ab2ae603fcde94fc9b24715ef603"
+}

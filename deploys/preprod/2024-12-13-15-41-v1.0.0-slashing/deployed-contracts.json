@@ -1,0 +1,439 @@
+{
+  "contracts": [
+    {
+      "address": "0x50712285cE831a6B9a11214A430f28999A5b4DAe",
+      "contract": "PauserRegistry_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x668a1ceda4ff011347dbfc4b41102a51aa2f50658f1c579730dc3f14d275b9d0",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x259597c0AEc3c9978D24e892225f2F4Ac142d885",
+      "contract": "PermissionController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xa2348c77802238Db39f0CefAa500B62D3FDD682b",
+      "contract": "PermissionController_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xc7618DC8607503C15f4393782068B79655104A24",
+      "contract": "AllocationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x5e27802daf607f9c8cc2f1751bab3ce7b225c2513898ad11254d243fdb0eb309",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xFdD5749e11977D60850E06bF5B13221Ad95eb6B4",
+      "contract": "AllocationManager_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0x5e27802daf607f9c8cc2f1751bab3ce7b225c2513898ad11254d243fdb0eb309",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xD5597C5c574BbD4Ce76C3aaF2900525De97aD711",
+      "contract": "AVSDirectory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xb333c7836c9468ace98bd72ecc6a529053ac94b3977547dd686caa2346ab3e2d",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xa61d360551d05715046491eEc8a8Cb90f6867545",
+      "contract": "DelegationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x88af0e97a0ba06005989208a19ca74dc1f737b967491a2bd13878772e13ec346",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x480e9045F62F20b8B8342164011305f223D48B2b",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x426becccf52b2c7f0d8bca0d7f6fe040fd08da61db7a10d6327f4e826ebbd8ed",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x158E6FBFb5FAc98894BF0Da28998efcB3Ba1C58A",
+      "contract": "StrategyManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xa358281d2e66c262aeaf0f86edb48294e933449bfc2261200c551dc99dd55673",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xe55A9EA92b1134afF44fB81e667FD5f74e6a47e5",
+      "contract": "EigenPodManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x990f0dda2814eeca9f91ce004e5f0b27e69a3d3242f8cbee89565a2e6e4b6758",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xf53F78382a26b62A3aC3a3837a8dED2044a2103D",
+      "contract": "EigenPod_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x940452ea3b49e90b09f9e814eea041254a4c90c9fb7941631c33cc0b30af34ee",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x98bD5748dc964e85400B3A5D0152c444201C577a",
+      "contract": "StrategyBaseTVLLimits_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x721d61446e034814d1bddf20b9a08aa66aeb93a5e1124ffc6466861ed513d3ce",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xdB01e5178E4745346B230fdF2d6Da2F483a71EA4",
+      "contract": "EigenStrategy_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdb19cefc211c27360a24cfb4087d277f5b3b4b8d943e1d1c3e9038439f0862b5",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x203654Ea1e39d00983A9cE0457B2d2efC188fC40",
+      "contract": "StrategyFactory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x9487de8ea472aa453802a8ac2e28b95489868b1709d7042710c193183886a061",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x3Dc582A90b920AA6aa0204e0517d6767C9C8c268",
+      "contract": "StrategyBase_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x5ca521dcde182fc67132df2b9a17b0478a0a5088f4b7fdc87a5599fe13fe6380",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-41-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

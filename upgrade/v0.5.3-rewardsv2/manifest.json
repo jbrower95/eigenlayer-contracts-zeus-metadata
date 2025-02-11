@@ -1,0 +1,20 @@
+{
+  "name": "rewards-v2-operator-split",
+  "from": ">=0.0.0 <=0.5.2",
+  "to": "0.5.3",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol"
+    }
+  ],
+  "commit": "b8567e4fa6e46a5e07f7905fb263b92fb1316bf0"
+}

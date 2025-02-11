@@ -1,0 +1,319 @@
+{
+  "contracts": [
+    {
+      "address": "0x9A312A51209b1b5242932C337805d4DeEf8874a5",
+      "contract": "PauserRegistry_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x668a1ceda4ff011347dbfc4b41102a51aa2f50658f1c579730dc3f14d275b9d0",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x1EBA8210Fb854BC3b641f9987570888B3C8873cB",
+      "contract": "PermissionController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x394Ef5f3145CB27306A07cF870d49d3DDFb06e63",
+      "contract": "PermissionController_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x7695B6DfCBd084C206Deed495621DF4372BE3F8C",
+      "contract": "AllocationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdaa165bb4720cb3a842d4bc2aab4e81c12b181538c192f5307565f05441aee64",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x131c00C3fd77055749B1D496A1da42CDa38528ef",
+      "contract": "AllocationManager_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdaa165bb4720cb3a842d4bc2aab4e81c12b181538c192f5307565f05441aee64",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x0fc0d964a98650622f26B7c92ef7BE4E500380b4",
+      "contract": "AVSDirectory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xd6c87f85c0cd2b09c335b02e80e7567086cf8bf1c1ccbbd4906ad95e2c2b1ee1",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xfF12246797C333fB9bfA4cF35B503c5e4949C9e0",
+      "contract": "DelegationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x956e0ad75cafa5d7dc1f88efab7ae8b3dec33fbd1f38b2dcbcb85f505820af83",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x6dCbD499e1DA646256bcbBd5d81e83e483Ee0daa",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xde22b72f4275de5437e883546b166fab228b739a8dfdeb087db17aa6450aeb04",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x683c8923543BFE207314a90e0eaC8E58271b473d",
+      "contract": "StrategyManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xeb7ec1ec9d66ea7960fc8c84c0e52423001827cb66ea072321643b53a5034748",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x82Ca576F0deA755D7E98db5134AaDa49Adf7a8F1",
+      "contract": "EigenPodManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xd9a3153dae8ddf11ce12a9515dcc63c57dab45a2a4063d9f6f38991f30a55d82",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x936F480857c895c42c2Da44947001B90964D29aA",
+      "contract": "EigenPod_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x4e8462cd73e896d9ce3f752f78e237f53a8f2c53dcd18e30d693c4d436a8bb0f",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xeDd421a59d94725aF4d89623d9336De9805C5c43",
+      "contract": "StrategyBaseTVLLimits_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x18a71cb640d460cbec3d8d43f152420ff1c201a92c9d1f234bc2d60f8fea4905",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x9Ca37d84a0476F5506A8B7fd53bC5a50fBC4c4dE",
+      "contract": "EigenStrategy_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc0f65f3bd1037126cd2dabe33de74bf378f795e35491590d0f19cb9ebda213dd",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x698aB10a26Faa196593C037c6c7b37839E915Ff0",
+      "contract": "StrategyFactory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xd10abbfa5215be5fbe9ecafdfc2ca5bac6aa8bfe8610a7b1c00334b2f906befb",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x7563629675dB74718AeF53853602fCAE07A9C574",
+      "contract": "StrategyBase_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x786493ea6a27bc8d33c6611023208fa2d19463d0d12acfb3ff7984919d1c282a",
+      "lastUpdatedIn": {
+        "name": "2024-12-19-11-14-v1.0.2-slashing-consolidated",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

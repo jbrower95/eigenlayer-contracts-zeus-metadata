@@ -1,0 +1,29 @@
+{
+  "name": "2025-02-10-15-12-v1.1.0-slashing",
+  "env": "testnet",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.1.0-slashing",
+  "upgradePath": "script/releases/v1.1.0-slashing",
+  "phase": "",
+  "chainId": 17000,
+  "startTime": "Mon Feb 10 2025 15:12:51 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1739218371.63
+}

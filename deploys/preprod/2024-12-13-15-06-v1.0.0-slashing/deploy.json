@@ -1,0 +1,62 @@
+{
+  "name": "2024-12-13-15-06-v1.0.0-slashing",
+  "env": "preprod",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployContracts.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-queueUpgradeAndUnpause.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-pause.s.sol",
+      "id": 2
+    },
+    {
+      "type": "script",
+      "filename": "cleanup/start.sh",
+      "arguments": [
+        {
+          "type": "url",
+          "passBy": "env",
+          "inputType": "text",
+          "name": "RPC_URL",
+          "prompt": "Enter an ETH RPC URL"
+        },
+        {
+          "type": "url",
+          "passBy": "env",
+          "inputType": "text",
+          "name": "BEACON_URL",
+          "prompt": "Enter an ETH2 Beacon RPC URL"
+        },
+        {
+          "type": "privateKey",
+          "passBy": "env",
+          "inputType": "password",
+          "name": "SENDER_PK",
+          "prompt": "Enter an ETH wallet private key to complete checkpoints from:"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "multisig",
+      "filename": "5-executeUpgradeAndUnpause.s.sol",
+      "id": 4
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.0.0-slashing",
+  "upgradePath": "script/releases/v1.0.0-slashing",
+  "phase": "",
+  "chainId": 17000,
+  "startTime": "Fri Dec 13 2024 15:06:40 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1734120400.742
+}

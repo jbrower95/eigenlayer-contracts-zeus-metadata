@@ -1,0 +1,26 @@
+{
+  "contracts": [
+    {
+      "address": "0x744750B67EaF5D4DaAe4247E0f274cd7575166D8",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc85fe13fbcf1bb5dd9beabeae67f411edda8c9bae54443d2b275419e9a3531d1",
+      "lastUpdatedIn": {
+        "name": "2025-02-05-14-47-v1.1.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "40046473+ypatil12@users.noreply.github.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x4c57d1aa24e1672a98ca25119b722a762c748960cb17b18643bc307b87b81ba9"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

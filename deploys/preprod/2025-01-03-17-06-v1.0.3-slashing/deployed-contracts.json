@@ -1,0 +1,72 @@
+{
+  "contracts": [
+    {
+      "address": "0xC49B3c5fb6666BcA0b480681F3abB7a6D135b3Ce",
+      "contract": "DelegationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc88460fc758dde800113cbfdb061d765d2cf12e16dfab6f9c39b69a6c0b99841",
+      "lastUpdatedIn": {
+        "name": "2025-01-03-17-06-v1.0.3-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "96172957+0xClandestine@users.noreply.github.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x8b3C04F18FdFD5D3eB86A1aD108f13E074fBFc30",
+      "contract": "AVSDirectory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x1f9c225e77dff3e02f5cf9ebf09cb2953c91365659e435f3c498f64e8bcc6a80",
+      "lastUpdatedIn": {
+        "name": "2025-01-03-17-06-v1.0.3-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "96172957+0xClandestine@users.noreply.github.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xB23E3635Ea81Ffb93170d02cA555f48C559B3370",
+      "contract": "StrategyManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x0012e17b7c3c30695cada65e678c7a2a28a3302e430acc92dfb580e1b1f98095",
+      "lastUpdatedIn": {
+        "name": "2025-01-03-17-06-v1.0.3-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "96172957+0xClandestine@users.noreply.github.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0x346D1EcA2474C75ff7De34663732c3A4ae3c4725",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xf2bb673a0a131f18f6929598c6aca83212ada1d19906608a5f1129e73e5c1a66",
+      "lastUpdatedIn": {
+        "name": "2025-01-03-17-06-v1.0.3-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "96172957+0xClandestine@users.noreply.github.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

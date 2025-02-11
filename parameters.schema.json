@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EigenLayer Deployment Schema",
+  "type": "object",
+  "properties": {
+    "executorMultisig": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "operationsMultisig": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "pauserMultisig": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "STRATEGY_MANAGER_INIT_PAUSED_STATUS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "SLASHER_INIT_PAUSED_STATUS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "DELEGATION_INIT_PAUSED_STATUS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "DELEGATION_WITHDRAWAL_DELAY_BLOCKS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "EIGENPOD_MANAGER_INIT_PAUSED_STATUS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_INIT_PAUSED_STATUS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_CALCULATION_INTERVAL_SECONDS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_MAX_REWARDS_DURATION": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_MAX_RETROACTIVE_LENGTH": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_MAX_FUTURE_LENGTH": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_GENESIS_REWARDS_TIMESTAMP": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_UPDATER": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "REWARDS_COORDINATOR_ACTIVATION_DELAY": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_GLOBAL_OPERATOR_COMMISSION_BIPS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_OPERATOR_SET_GENESIS_REWARDS_TIMESTAMP": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "REWARDS_COORDINATOR_OPERATOR_SET_MAX_RETROACTIVE_LENGTH": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "STRATEGY_MANAGER_INIT_WITHDRAWAL_DELAY_BLOCKS": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "ethPOSDepositAddress": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    }
+  },
+  "required": [
+    "executorMultisig",
+    "operationsMultisig",
+    "pauserMultisig",
+    "STRATEGY_MANAGER_INIT_PAUSED_STATUS",
+    "SLASHER_INIT_PAUSED_STATUS",
+    "DELEGATION_INIT_PAUSED_STATUS",
+    "DELEGATION_WITHDRAWAL_DELAY_BLOCKS",
+    "EIGENPOD_MANAGER_INIT_PAUSED_STATUS",
+    "REWARDS_COORDINATOR_INIT_PAUSED_STATUS",
+    "REWARDS_COORDINATOR_CALCULATION_INTERVAL_SECONDS",
+    "REWARDS_COORDINATOR_MAX_REWARDS_DURATION",
+    "REWARDS_COORDINATOR_MAX_RETROACTIVE_LENGTH",
+    "REWARDS_COORDINATOR_MAX_FUTURE_LENGTH",
+    "REWARDS_COORDINATOR_GENESIS_REWARDS_TIMESTAMP",
+    "REWARDS_COORDINATOR_UPDATER",
+    "REWARDS_COORDINATOR_ACTIVATION_DELAY",
+    "REWARDS_COORDINATOR_GLOBAL_OPERATOR_COMMISSION_BIPS",
+    "REWARDS_COORDINATOR_OPERATOR_SET_GENESIS_REWARDS_TIMESTAMP",
+    "REWARDS_COORDINATOR_OPERATOR_SET_MAX_RETROACTIVE_LENGTH",
+    "STRATEGY_MANAGER_INIT_WITHDRAWAL_DELAY_BLOCKS",
+  ]
+}

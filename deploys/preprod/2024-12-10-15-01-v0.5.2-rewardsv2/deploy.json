@@ -1,0 +1,61 @@
+{
+  "name": "2024-12-10-15-01-v0.5.2-rewardsv2",
+  "env": "preprod",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xe1200ACdeC6aEf63005bba5F0f48cd719CC37040",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x41bdd98746b134332d25abc811a4059e8ea615808db8ce3c50ea2dfe77192244",
+      "multisig": "0x6d609cD2812bDA02a75dcABa7DaafE4B20Ff5608",
+      "confirmed": true,
+      "immediateExecutionHash": "0x2c4dc1dd5aea400a5d6da1c106e2f79d4d07a27d89c0f7d6b17baf83e807d4be"
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x32139c422400c07c68f1f04e617407900f8d26b6794eefd41980c4d79e780340",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": true,
+      "immediateExecutionHash": "0xe282e60611ded12a22510e627cb76db9edd298ebd095616cef159872fbc451db"
+    }
+  ],
+  "upgrade": "v0.5.2-rewardsv2",
+  "upgradePath": "script/releases/v0.5.2-rewardsv2",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Tue Dec 10 2024 15:01:41 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1733860901.16
+}

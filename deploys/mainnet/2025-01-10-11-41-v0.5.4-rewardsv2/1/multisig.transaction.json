@@ -1,0 +1,18 @@
+{
+    "safe": "0xBE1685C81aA44FF9FB319dD389addd9374383e90",
+    "transactionHash": "0x8b701230dbea384b04e106e99bc573a93dd635252a77acfbc61b978877ff9b85",
+    "safeTxHash": "0x1f63a2e16b02683715c6ae08c2d0e094b029aac41a434248d9250c759214f762",
+    "isExecuted": true,
+    "isSuccessful": true,
+    "ethGasPrice": "874047068",
+    "maxFeePerGas": "874047075",
+    "maxPriorityFeePerGas": "874047061",
+    "gasUsed": 0,
+    "fee": "0",
+    "origin": "{}",
+    "confirmationsRequired": 3,
+    "confirmations": [],
+    "executionDate": "1/10/2025, 10:30:11 AM",
+    "trusted": true,
+    "signatures": ""
+  }

@@ -1,0 +1,29 @@
+{
+  "contracts": [
+    {
+      "address": "0xF81F901E7D63Dd5eb0109Ee55dbA59A68DA2851E",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xce00e478dc43e8644de460e84bdad34ce18bb46911a8f7aecbf12acae27a17a9",
+      "lastUpdatedIn": {
+        "name": "2024-12-03-14-09-v0.5.1-rewardsv2",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jeff@eigenfoundation.org",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

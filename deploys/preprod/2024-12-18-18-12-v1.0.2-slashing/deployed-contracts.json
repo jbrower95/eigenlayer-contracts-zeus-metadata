@@ -1,0 +1,15 @@
+{
+  "contracts": [
+    {
+      "address": "0xAC82Ab1Affb600BC32a5fF74dEF79e63419b8fCC",
+      "contract": "StrategyManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xeb7ec1ec9d66ea7960fc8c84c0e52423001827cb66ea072321643b53a5034748",
+      "lastUpdatedIn": {
+        "name": "2024-12-18-18-12-v1.0.2-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
+    }
+  ]
+}

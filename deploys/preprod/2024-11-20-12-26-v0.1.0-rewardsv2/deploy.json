@@ -1,0 +1,43 @@
+{
+  "name": "2024-11-20-12-26-v0.1.0-rewardsv2",
+  "env": "preprod",
+  "segmentId": 1,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xcf1678fAde0e8b6096bc078d9aCBfc23432e7825",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xb85dc91D916148fE20243b01fc34885aF0010242",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v0.1.0-rewardsv2",
+  "upgradePath": "/Users/jbrower/projects/eigenlayer-contracts/script/releases/v0.1.0-rewardsv2",
+  "phase": "multisig_start",
+  "chainId": 17000,
+  "startTime": "Wed Nov 20 2024 12:26:28 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1732123588.017
+}

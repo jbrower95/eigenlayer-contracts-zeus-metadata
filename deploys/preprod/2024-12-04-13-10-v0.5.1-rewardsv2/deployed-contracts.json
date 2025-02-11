@@ -1,0 +1,21 @@
+{
+  "contracts": [
+    {
+      "address": "0x096694a4C8c2C13a005a200309d64995C08eD065",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xce00e478dc43e8644de460e84bdad34ce18bb46911a8f7aecbf12acae27a17a9",
+      "lastUpdatedIn": {
+        "name": "2024-12-04-13-10-v0.5.1-rewardsv2",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

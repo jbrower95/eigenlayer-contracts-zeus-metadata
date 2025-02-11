@@ -1,0 +1,51 @@
+{
+  "safe": "0x546D3b66B27dCb94777d7eFC3825b10675FE5D95",
+  "to": "0xB8d8952f572e67B11e43bC21250967772fa883Ff",
+  "value": "0",
+  "data": "0x136439dd0000000000000000000000000000000000000000000000000000000000000040",
+  "operation": 0,
+  "gasToken": "0x0000000000000000000000000000000000000000",
+  "safeTxGas": 0,
+  "baseGas": 0,
+  "gasPrice": "0",
+  "refundReceiver": "0x0000000000000000000000000000000000000000",
+  "nonce": 1,
+  "executionDate": "2024-12-13T21:02:36Z",
+  "submissionDate": "2024-12-13T20:59:21.877928Z",
+  "modified": "2024-12-13T21:02:43.194137Z",
+  "blockNumber": 2930565,
+  "transactionHash": "0xa05621dee164dd338fc79c39506ea5cbcf7e30b35b5a26ea087e4e81a0595201",
+  "safeTxHash": "0x146d36148602ab15bd5fe23ade7685c4c5a6ff0f39dfa9ff2f274fdd0af0cc6b",
+  "proposer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+  "executor": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+  "isExecuted": true,
+  "isSuccessful": true,
+  "ethGasPrice": "52247832",
+  "maxFeePerGas": "52247840",
+  "maxPriorityFeePerGas": "52247824",
+  "gasUsed": 99069,
+  "fee": "5176140468408",
+  "origin": "{}",
+  "dataDecoded": {
+    "method": "pause",
+    "parameters": [
+      {
+        "name": "newPausedStatus",
+        "type": "uint256",
+        "value": "64"
+      }
+    ]
+  },
+  "confirmationsRequired": 1,
+  "confirmations": [
+    {
+      "owner": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "submissionDate": "2024-12-13T20:59:21.940994Z",
+      "transactionHash": null,
+      "signature": "0x4c46339f26812ae2618de2a7a572e1dad1f9a5096c9031535c9bce4bfe3872560c792126049f0acb6e14a66d77984cc0e1073835afe102ac602658779b9508a21b",
+      "signatureType": "EOA"
+    }
+  ],
+  "trusted": true,
+  "signatures": "0x4c46339f26812ae2618de2a7a572e1dad1f9a5096c9031535c9bce4bfe3872560c792126049f0acb6e14a66d77984cc0e1073835afe102ac602658779b9508a21b"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "2024-12-03-14-09-v0.5.1-rewardsv2",
+  "env": "preprod",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xF81F901E7D63Dd5eb0109Ee55dbA59A68DA2851E",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0xd8c3fa482b4dfd3446afbd64ca0c3bbdd26e06476f8a3a7820769b38433f467d",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": false
+    }
+  ],
+  "upgrade": "v0.5.1-rewardsv2",
+  "upgradePath": "script/releases/v0.5.1-rewardsv2",
+  "phase": "multisig_start",
+  "chainId": 17000,
+  "startTime": "Tue Dec 03 2024 14:09:16 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1733252956.476
+}

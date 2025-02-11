@@ -1,0 +1,146 @@
+{
+  "name": "2024-12-13-15-08-v1.0.0-slashing",
+  "env": "preprod",
+  "segmentId": 1,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deployContracts.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-queueUpgradeAndUnpause.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-pause.s.sol",
+      "id": 2
+    },
+    {
+      "type": "script",
+      "filename": "cleanup/start.sh",
+      "arguments": [
+        {
+          "type": "url",
+          "passBy": "env",
+          "inputType": "text",
+          "name": "RPC_URL",
+          "prompt": "Enter an ETH RPC URL"
+        },
+        {
+          "type": "url",
+          "passBy": "env",
+          "inputType": "text",
+          "name": "BEACON_URL",
+          "prompt": "Enter an ETH2 Beacon RPC URL"
+        },
+        {
+          "type": "privateKey",
+          "passBy": "env",
+          "inputType": "password",
+          "name": "SENDER_PK",
+          "prompt": "Enter an ETH wallet private key to complete checkpoints from:"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "multisig",
+      "filename": "5-executeUpgradeAndUnpause.s.sol",
+      "id": 4
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x24Ddccb604684931A98F6073E2f548c9d8Dd5d8F",
+          "contract": "PauserRegistry_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x5BA968975C312cD4172E55a90Eb613163EF59A22",
+          "contract": "PermissionController_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x1D5F64d94B36E30cda9992254d5D3d2E63F48De4",
+          "contract": "PermissionController_Proxy",
+          "singleton": true
+        },
+        {
+          "address": "0x3D78D86C49dC253Ee867a70848D0e1075a9bF82f",
+          "contract": "AllocationManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x88073F334c5ea9f97eA60ac3325629dCf87Fe37a",
+          "contract": "AllocationManager_Proxy",
+          "singleton": true
+        },
+        {
+          "address": "0x4b898805A63bc9f39a8DC86F43762Ae2e9110a5a",
+          "contract": "AVSDirectory_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xE2F5d6EF3aE52d4AE6ED8CE42eE5CB77efD30B6B",
+          "contract": "DelegationManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x8Ed52AE026A962041982F9522073fb5999a93191",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xEf1a9E96F5fb2830997E0e5aD270c12505A0Fccc",
+          "contract": "StrategyManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x4472EAF58AE9A2502Be4e07FE98ac57c1A71C4E6",
+          "contract": "EigenPodManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xC4f223f850Bd8671590C4CCD009f8DE37E408A04",
+          "contract": "EigenPod_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x5b3be813373b3cD3F5760359C30e0dd4ab0F800f",
+          "contract": "StrategyBaseTVLLimits_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xDe252F3222032b875689Cc83228C240214282e28",
+          "contract": "EigenStrategy_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x8E0c7e72A33001be1d95f8a70a3E14B95C666487",
+          "contract": "StrategyFactory_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xD2edeE2DE78Bb4C458558826faDb86EA2D720054",
+          "contract": "StrategyBase_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v1.0.0-slashing",
+  "upgradePath": "script/releases/v1.0.0-slashing",
+  "phase": "multisig_start",
+  "chainId": 17000,
+  "startTime": "Fri Dec 13 2024 15:08:16 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1734120496.015
+}

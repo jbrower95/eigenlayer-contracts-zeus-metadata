@@ -1,0 +1,9 @@
+{
+  "mutations": [
+    {
+      "next": 1000,
+      "name": "REWARDS_COORDINATOR_DEFAULT_OPERATOR_SPLIT_BIPS",
+      "internalType": 7
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "2025-01-06-15-27-v1.0.3-slashing",
+  "env": "testnet",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xDa6F662777aDB5209644cF5cf1A61A2F8a99BF48",
+          "contract": "DelegationManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x69660e721e4013dd8FEf83dCE731E915d74b8a0b",
+          "contract": "AVSDirectory_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x7798625888ECf3EB2c3c74Dc2746e09d72747679",
+          "contract": "StrategyManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xA3c31d2FBAD3d924baA64f8789E03E9FA7d70d69",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0x845FDF97F8022BCf7c4dfe1Be5CE9f0aC80ba58f",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0x72c8e59d3bc3f5e68182673fbbf6b3f1888c77dbe39c99192dc28a4ecd24463e",
+      "multisig": "0xfaEF7338b7490b9E272d80A1a39f4657cAf2b97d",
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0x845FDF97F8022BCf7c4dfe1Be5CE9f0aC80ba58f",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0x5e85aee8791a07e38b96168475a6da65bd74302330e03d83a4873cb0921ceed0",
+      "multisig": "0xd140eE77d9e62901d8cEFf199d3ef4Dd1F4Eaff4",
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v1.0.3-slashing",
+  "upgradePath": "script/releases/v1.0.3-slashing",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Mon Jan 06 2025 15:27:46 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1736195266.111
+}

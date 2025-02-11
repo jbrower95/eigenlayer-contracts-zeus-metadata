@@ -1,0 +1,46 @@
+{
+  "contracts": [
+    {
+      "address": "0x707C0357303eEFfBE8D9A92ff08EA116A4c155D2",
+      "contract": "AllocationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xdaa165bb4720cb3a842d4bc2aab4e81c12b181538c192f5307565f05441aee64",
+      "lastUpdatedIn": {
+        "name": "2024-12-18-12-16-v1.0.1-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "address": "0xb79B3FbA547Efe16b7ad7Df17A2dfc63858C665B",
+      "contract": "DelegationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x956e0ad75cafa5d7dc1f88efab7ae8b3dec33fbd1f38b2dcbcb85f505820af83",
+      "lastUpdatedIn": {
+        "name": "2024-12-18-12-16-v1.0.1-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

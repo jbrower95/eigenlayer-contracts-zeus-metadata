@@ -1,0 +1,61 @@
+{
+  "name": "2024-12-18-18-12-v1.0.2-slashing",
+  "env": "preprod",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xAC82Ab1Affb600BC32a5fF74dEF79e63419b8fCC",
+          "contract": "StrategyManager_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0x50f6a4e2f3ceab8619950aec71d29f9f277f8571c58de64f9b09ba1a262965b4",
+      "multisig": "0x6d609cD2812bDA02a75dcABa7DaafE4B20Ff5608",
+      "confirmed": true,
+      "immediateExecutionHash": "0x1a9b244f097c6fc6ab160eae3925b8818fa16b137ddac5d4ad7e4c6974798298"
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0x28849070b4d1a98df35744fc2b4c2b3e880e6b75573af14955f25674bc78d821",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": true,
+      "immediateExecutionHash": "0xf99f1c9098de3c51a9f059d817de164679e889e727f957d19cea462b667b5c7c"
+    }
+  ],
+  "upgrade": "v1.0.2-slashing",
+  "upgradePath": "script/releases/v1.0.2-slashing",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Wed Dec 18 2024 18:12:44 GMT-0800 (Pacific Standard Time)",
+  "startTimestamp": 1734574364.058
+}

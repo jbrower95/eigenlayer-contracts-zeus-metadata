@@ -1,0 +1,679 @@
+{
+  "contracts": [
+    {
+      "address": "0x24Ddccb604684931A98F6073E2f548c9d8Dd5d8F",
+      "contract": "PauserRegistry_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x103270651c752889976cdff37e62190c2bdac1248ed90f6107d628efbd4b5215",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x668a1ceda4ff011347dbfc4b41102a51aa2f50658f1c579730dc3f14d275b9d0"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x668a1ceda4ff011347dbfc4b41102a51aa2f50658f1c579730dc3f14d275b9d0"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x6961753abc108e2b97c80481049ad463a8fbc6ee4cd9d79061e41a0cabbe2395"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x668a1ceda4ff011347dbfc4b41102a51aa2f50658f1c579730dc3f14d275b9d0"
+        }
+      ]
+    },
+    {
+      "address": "0x5BA968975C312cD4172E55a90Eb613163EF59A22",
+      "contract": "PermissionController_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x829e0f313a4aa65fae25aaa7698c9d0beaf86d97505b4a7eaf3f71b66f29ab69",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x92d3b736a11090165b1e13f80fde3d74a28b5121a7f2eb31b8221a0c9793b6da"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xdba32bd0c2d5d886226016d472fc477b5eb3626b0e125b94922277c64ecac486"
+        }
+      ]
+    },
+    {
+      "address": "0x1D5F64d94B36E30cda9992254d5D3d2E63F48De4",
+      "contract": "PermissionController_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0x829e0f313a4aa65fae25aaa7698c9d0beaf86d97505b4a7eaf3f71b66f29ab69",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xe44ab35b79f960130abaada74c554ee9e721071f2dc3ebf9cb37443375bd9fc7"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xe44ab35b79f960130abaada74c554ee9e721071f2dc3ebf9cb37443375bd9fc7"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x0b75e7a5dfc12aad879a240bc973c53a150c4a60005307bde1bbc7cf834e4bc0"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xe44ab35b79f960130abaada74c554ee9e721071f2dc3ebf9cb37443375bd9fc7"
+        }
+      ]
+    },
+    {
+      "address": "0x3D78D86C49dC253Ee867a70848D0e1075a9bF82f",
+      "contract": "AllocationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x7cfa2ef37bf2ea071789bbe6a037eb71eb4d6a0dcac505da6822afbc323b4420",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x5e27802daf607f9c8cc2f1751bab3ce7b225c2513898ad11254d243fdb0eb309"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x5e27802daf607f9c8cc2f1751bab3ce7b225c2513898ad11254d243fdb0eb309"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0xd031fbd9935b858c957c961a73873b9c050621dfd25fbc556d58664cd280608d"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x5e27802daf607f9c8cc2f1751bab3ce7b225c2513898ad11254d243fdb0eb309"
+        }
+      ]
+    },
+    {
+      "address": "0x88073F334c5ea9f97eA60ac3325629dCf87Fe37a",
+      "contract": "AllocationManager_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0x7cfa2ef37bf2ea071789bbe6a037eb71eb4d6a0dcac505da6822afbc323b4420",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xaa9a152bb15aec46fa6258df3cf763939a2cb888b657a49b68232e5a8b75c684"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xaa9a152bb15aec46fa6258df3cf763939a2cb888b657a49b68232e5a8b75c684"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x5969a99efd26bfb9583320daef5be933687ea1bbe55951d62b8d20935f08f056"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xaa9a152bb15aec46fa6258df3cf763939a2cb888b657a49b68232e5a8b75c684"
+        }
+      ]
+    },
+    {
+      "address": "0x4b898805A63bc9f39a8DC86F43762Ae2e9110a5a",
+      "contract": "AVSDirectory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x396b5b9bf02a5f2777c1bb0fe32f61171312cb0556974ff8584043753daadaac",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xb333c7836c9468ace98bd72ecc6a529053ac94b3977547dd686caa2346ab3e2d"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xb333c7836c9468ace98bd72ecc6a529053ac94b3977547dd686caa2346ab3e2d"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0xba4c0ca9fd72b66a57af1698d8b619db547593ba67aada3583f499ca6356e009"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xb333c7836c9468ace98bd72ecc6a529053ac94b3977547dd686caa2346ab3e2d"
+        }
+      ]
+    },
+    {
+      "address": "0xE2F5d6EF3aE52d4AE6ED8CE42eE5CB77efD30B6B",
+      "contract": "DelegationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x921ad18d12f05ae6fd3413d37410bf0038ccc68c641df08cb63c4e8c7353c176",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x88af0e97a0ba06005989208a19ca74dc1f737b967491a2bd13878772e13ec346"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x88af0e97a0ba06005989208a19ca74dc1f737b967491a2bd13878772e13ec346"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x5832a0e941097a2fd9e323ccddaa6e96ac75981953a7fa9e3aeca93d546d0000"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x88af0e97a0ba06005989208a19ca74dc1f737b967491a2bd13878772e13ec346"
+        }
+      ]
+    },
+    {
+      "address": "0x8Ed52AE026A962041982F9522073fb5999a93191",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x1b3ea16426987445156b2b8ad483621bff6077349686124f824c38bf71213c55",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x426becccf52b2c7f0d8bca0d7f6fe040fd08da61db7a10d6327f4e826ebbd8ed"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x426becccf52b2c7f0d8bca0d7f6fe040fd08da61db7a10d6327f4e826ebbd8ed"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x3b323b9f45c754d37c0d361f93bf58c87c765407ae68dd6503f7bb2b0d431669"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x426becccf52b2c7f0d8bca0d7f6fe040fd08da61db7a10d6327f4e826ebbd8ed"
+        }
+      ]
+    },
+    {
+      "address": "0xEf1a9E96F5fb2830997E0e5aD270c12505A0Fccc",
+      "contract": "StrategyManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xd0822750dd7e17bc606dd99df312e4b5a1b31f4e83df30ca55d83f006c82c6a0",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xa358281d2e66c262aeaf0f86edb48294e933449bfc2261200c551dc99dd55673"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xa358281d2e66c262aeaf0f86edb48294e933449bfc2261200c551dc99dd55673"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x08b3db6a51d1bb9e374d05f3c7fcd8ac845a0f92844252196c7f2f7c63cc00d7"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xa358281d2e66c262aeaf0f86edb48294e933449bfc2261200c551dc99dd55673"
+        }
+      ]
+    },
+    {
+      "address": "0x4472EAF58AE9A2502Be4e07FE98ac57c1A71C4E6",
+      "contract": "EigenPodManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xef2117fbdb4a5e606da5fb6398164859deb2ea04d66fcf4cc9fe318719fbc290",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x990f0dda2814eeca9f91ce004e5f0b27e69a3d3242f8cbee89565a2e6e4b6758"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x990f0dda2814eeca9f91ce004e5f0b27e69a3d3242f8cbee89565a2e6e4b6758"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x38a55708ff6df517cc13922f587cb23fd3ff2ad03a6fc534e66baaaffdc3f8c8"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x990f0dda2814eeca9f91ce004e5f0b27e69a3d3242f8cbee89565a2e6e4b6758"
+        }
+      ]
+    },
+    {
+      "address": "0xC4f223f850Bd8671590C4CCD009f8DE37E408A04",
+      "contract": "EigenPod_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x84cf97e312a11c9749da8fd0219066e239893b7e9d89a7a2eba857c101d6ad7f",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x940452ea3b49e90b09f9e814eea041254a4c90c9fb7941631c33cc0b30af34ee"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x940452ea3b49e90b09f9e814eea041254a4c90c9fb7941631c33cc0b30af34ee"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x2221cb12359f697a75104d3b4cf38410f2f85b765cb1460c3485c40b11aba073"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x940452ea3b49e90b09f9e814eea041254a4c90c9fb7941631c33cc0b30af34ee"
+        }
+      ]
+    },
+    {
+      "address": "0x5b3be813373b3cD3F5760359C30e0dd4ab0F800f",
+      "contract": "StrategyBaseTVLLimits_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x325c185cac11e61da54eb879ee08a2cd64abe0f76d4aae6bbd6a878049b8bdc8",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x721d61446e034814d1bddf20b9a08aa66aeb93a5e1124ffc6466861ed513d3ce"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x721d61446e034814d1bddf20b9a08aa66aeb93a5e1124ffc6466861ed513d3ce"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x3efe1193535620a15f432146d2aa7974f25fa738309f0e8d597634f4a7ebd026"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x721d61446e034814d1bddf20b9a08aa66aeb93a5e1124ffc6466861ed513d3ce"
+        }
+      ]
+    },
+    {
+      "address": "0xDe252F3222032b875689Cc83228C240214282e28",
+      "contract": "EigenStrategy_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc7e956a63634079661126e922b82477d8e6e7dee3d312710152e3e4418dbac48",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xdb19cefc211c27360a24cfb4087d277f5b3b4b8d943e1d1c3e9038439f0862b5"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xdb19cefc211c27360a24cfb4087d277f5b3b4b8d943e1d1c3e9038439f0862b5"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x880cf69ef8ce3af2d75fbd589faf8a161adb81ebcb535b1c04850f4db582d590"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0xdb19cefc211c27360a24cfb4087d277f5b3b4b8d943e1d1c3e9038439f0862b5"
+        }
+      ]
+    },
+    {
+      "address": "0x8E0c7e72A33001be1d95f8a70a3E14B95C666487",
+      "contract": "StrategyFactory_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc93048df9c3f89083debe45081b6ea787d9bd3419b1bb002a62657521f3e0efb",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x9487de8ea472aa453802a8ac2e28b95489868b1709d7042710c193183886a061"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x9487de8ea472aa453802a8ac2e28b95489868b1709d7042710c193183886a061"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0xe81f2555b6e8d2d5c05c4ac763ee3278d2ef7a8ce511ab41e0735110a39d9603"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x9487de8ea472aa453802a8ac2e28b95489868b1709d7042710c193183886a061"
+        }
+      ]
+    },
+    {
+      "address": "0xD2edeE2DE78Bb4C458558826faDb86EA2D720054",
+      "contract": "StrategyBase_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xb07dbf0cdcd601263335afc8eedee0f75c7f3303272d38b0560b29666894daea",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-15-08-v1.0.0-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x5ca521dcde182fc67132df2b9a17b0478a0a5088f4b7fdc87a5599fe13fe6380"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x5ca521dcde182fc67132df2b9a17b0478a0a5088f4b7fdc87a5599fe13fe6380"
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": false,
+          "expectedBytecodeHash": "0x94329c1e393ad34a9323f553a72ecbefef552a78762dfd3cb95a287581a3cadf"
+        },
+        {
+          "by": "pragma-services@proton.me",
+          "valid": false,
+          "expectedBytecodeHash": "0x5ca521dcde182fc67132df2b9a17b0478a0a5088f4b7fdc87a5599fe13fe6380"
+        }
+      ]
+    }
+  ]
+}

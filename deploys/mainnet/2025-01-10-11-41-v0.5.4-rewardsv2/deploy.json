@@ -1,0 +1,54 @@
+{
+  "name": "2025-01-10-11-41-v0.5.4-rewardsv2",
+  "env": "mainnet",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0x28957d7e845F90276F52A14C985C29f5F12154a5",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x29A954e9e7F12936Db89b183ECdf879fBBB99F14",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0x9229C290F60F303884073F28EB8E81F9B82506d5",
+      "signerType": "gnosis.api.ledger",
+      "gnosisTransactionHash": "0x855d4025305a0dedc19a34fc5fcc22abb1ccb204be52bcc0496715d8e10e88eb",
+      "multisig": "0x461854d84Ee845F905e0eCf6C288DDEEb4A9533F",
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v0.5.4-rewardsv2",
+  "upgradePath": "script/releases/v0.5.4-rewardsv2",
+  "phase": "complete",
+  "chainId": 1,
+  "startTime": "Fri Jan 10 2025 11:41:50 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1736527310.203
+}

@@ -1,0 +1,20 @@
+{
+  "name": "slashing-patch-RC-domainSeparator",
+  "from": "1.0.2",
+  "to": "1.0.3",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol"
+    }
+  ],
+  "commit": "44ece6d81ae87fddee8fd15c5b5e04fcee22143c"
+}

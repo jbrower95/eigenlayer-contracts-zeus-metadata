@@ -1,0 +1,53 @@
+{
+  "name": "2025-02-05-14-47-v1.1.0-slashing",
+  "env": "preprod",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x744750B67EaF5D4DaAe4247E0f274cd7575166D8",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    null,
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x3288196920b0ad37318e6eeb410b295b40efa9e4f9485711c1417685f1d1ffe6",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": true,
+      "immediateExecutionHash": "0xf974cb9a0c1fc3fd31c3ba99104f82915b5de143112634ff7bc757f9c826f1a6"
+    }
+  ],
+  "upgrade": "v1.1.0-slashing",
+  "upgradePath": "script/releases/v1.1.0-slashing",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Wed Feb 05 2025 14:47:29 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1738784849.655
+}

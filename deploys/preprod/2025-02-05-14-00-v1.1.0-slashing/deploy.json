@@ -1,0 +1,43 @@
+{
+  "name": "2025-02-05-14-00-v1.1.0-slashing",
+  "env": "preprod",
+  "segmentId": 1,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xa85E5E4f35b8F7eBe94aDAE23852bd27487d7E1E",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v1.1.0-slashing",
+  "upgradePath": "script/releases/v1.1.0-slashing",
+  "phase": "multisig_start",
+  "chainId": 17000,
+  "startTime": "Wed Feb 05 2025 14:00:53 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1738782053.275
+}

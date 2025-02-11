@@ -1,0 +1,21 @@
+{
+  "contracts": [
+    {
+      "address": "0x4f1e5dc8B5F6EFe9A020Cc0C631bF8A9bA5977Dc",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xce00e478dc43e8644de460e84bdad34ce18bb46911a8f7aecbf12acae27a17a9",
+      "lastUpdatedIn": {
+        "name": "2024-12-03-13-38-v0.5.1-rewardsv2",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

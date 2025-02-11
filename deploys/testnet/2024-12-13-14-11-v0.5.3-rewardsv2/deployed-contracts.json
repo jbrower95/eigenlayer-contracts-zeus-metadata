@@ -1,0 +1,25 @@
+{
+  "contracts": [
+    {
+      "address": "0x9174C082a4Bec1F5a756a0A658bBa470bC82550c",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x223357e86ae9a04d4cba56a346e3ed721185735464d551ea9dff874ea963c01f",
+      "lastUpdatedIn": {
+        "name": "2024-12-13-14-11-v0.5.3-rewardsv2",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "gpsanant@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

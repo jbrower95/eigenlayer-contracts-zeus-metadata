@@ -1,0 +1,66 @@
+{
+  "name": "2024-12-18-12-16-v1.0.1-slashing",
+  "env": "preprod",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x707C0357303eEFfBE8D9A92ff08EA116A4c155D2",
+          "contract": "AllocationManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xb79B3FbA547Efe16b7ad7Df17A2dfc63858C665B",
+          "contract": "DelegationManager_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0xd29eb28fce2472ac89373cc1fec2108ae4dcfd81f70fe74a507a0112e10f9dd2",
+      "multisig": "0x6d609cD2812bDA02a75dcABa7DaafE4B20Ff5608",
+      "confirmed": true,
+      "immediateExecutionHash": "0x4c6020e7fff13f806f375447cc80ffb177cd6085af6cfe382737812b3eec0d73"
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0xda2f053308fbcc87d4238eb61310ea7fd39afaf4bf2e6e09d41b851290b4831c",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": true,
+      "immediateExecutionHash": "0x4fa69fa946d1deeec93587ca5a300c405bbbc697b89f0bfa7cb9c1d58d24453c"
+    }
+  ],
+  "upgrade": "v1.0.1-slashing",
+  "upgradePath": "script/releases/v1.0.1-slashing",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Wed Dec 18 2024 12:16:01 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1734542161.904
+}

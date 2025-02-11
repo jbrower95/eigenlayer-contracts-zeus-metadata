@@ -1,0 +1,75 @@
+{
+  "name": "2025-01-03-17-06-v1.0.3-slashing",
+  "env": "preprod",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xC49B3c5fb6666BcA0b480681F3abB7a6D135b3Ce",
+          "contract": "DelegationManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x8b3C04F18FdFD5D3eB86A1aD108f13E074fBFc30",
+          "contract": "AVSDirectory_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0xB23E3635Ea81Ffb93170d02cA555f48C559B3370",
+          "contract": "StrategyManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x346D1EcA2474C75ff7De34663732c3A4ae3c4725",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0x28249f5b78d4fd5246dcfab057622b1e7e1e7812e6229ef04d4ccd812d64e17d",
+      "multisig": "0x6d609cD2812bDA02a75dcABa7DaafE4B20Ff5608",
+      "confirmed": true,
+      "immediateExecutionHash": "0x5684a7a3c4c2787eb78dd906207b414d81a8bde2294bdbca5d496469ee90b5a0"
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "eoa",
+      "gnosisTransactionHash": "0xf956ce5672ab0aca34a177e051e4a04912559ec66942899326896703d7c91260",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v1.0.3-slashing",
+  "upgradePath": "script/releases/v1.0.3-slashing",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Fri Jan 03 2025 17:06:19 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1735941979.993
+}

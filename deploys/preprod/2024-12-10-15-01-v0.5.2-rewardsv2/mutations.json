@@ -1,0 +1,16 @@
+{
+  "mutations": [
+    {
+      "prev": 1000,
+      "next": 1000,
+      "name": "REWARDS_COORDINATOR_DEFAULT_OPERATOR_SPLIT_BIPS",
+      "internalType": 7
+    },
+    {
+      "prev": 604800,
+      "next": 86400,
+      "name": "REWARDS_COORDINATOR_CALCULATION_INTERVAL_SECONDS",
+      "internalType": 2
+    }
+  ]
+}

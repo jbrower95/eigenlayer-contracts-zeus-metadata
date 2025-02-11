@@ -1,0 +1,29 @@
+{
+  "name": "2024-11-20-15-24-v0.1.0-rewardsv2",
+  "env": "preprod",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v0.1.0-rewardsv2",
+  "upgradePath": "/Users/jbrower/projects/eigenlayer-contracts/script/releases/v0.1.0-rewardsv2",
+  "phase": "",
+  "chainId": 17000,
+  "startTime": "Wed Nov 20 2024 15:24:34 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1732134274.311
+}

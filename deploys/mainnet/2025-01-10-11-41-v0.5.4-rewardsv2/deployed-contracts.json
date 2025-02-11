@@ -1,0 +1,33 @@
+{
+  "contracts": [
+    {
+      "address": "0x29A954e9e7F12936Db89b183ECdf879fBBB99F14",
+      "contract": "RewardsCoordinator_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xa58190e3c0842b13e8bfc55ccd4e76ac29ded1c363b6048194ec98921fbd3bf5",
+      "lastUpdatedIn": {
+        "name": "2025-01-10-11-41-v0.5.4-rewardsv2",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      },
+      "validations": [
+        {
+          "by": "pragma-services@proton.me",
+          "valid": true
+        },
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "nadirakhtar123@gmail.com",
+          "valid": true
+        },
+        {
+          "by": "jeff@eigenfoundation.org",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

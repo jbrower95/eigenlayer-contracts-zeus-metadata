@@ -1,0 +1,20 @@
+{
+  "name": "slashing-patch-2-try-catch",
+  "from": "1.0.1",
+  "to": "1.0.2",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol"
+    }
+  ],
+  "commit": "d8715d6149448d4578c6e43cd2a7bb86907f4d70"
+}

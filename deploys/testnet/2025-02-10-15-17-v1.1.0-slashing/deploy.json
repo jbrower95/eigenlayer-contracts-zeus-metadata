@@ -1,0 +1,59 @@
+{
+  "name": "2025-02-10-15-17-v1.1.0-slashing",
+  "env": "testnet",
+  "segmentId": 2,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xA174A41F1bDB09A8aE8aD6f7C99BA997C225EAD9",
+          "contract": "RewardsCoordinator_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0x845FDF97F8022BCf7c4dfe1Be5CE9f0aC80ba58f",
+      "signerType": "gnosis.api.eoa",
+      "gnosisTransactionHash": "0x159058b1f6093bb307147d7646aa997c437bde0f1876e3f4d85e285f92fd966c",
+      "multisig": "0xfaEF7338b7490b9E272d80A1a39f4657cAf2b97d",
+      "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0x845FDF97F8022BCf7c4dfe1Be5CE9f0aC80ba58f",
+      "signerType": "gnosis.api.eoa",
+      "gnosisTransactionHash": "0x3766fa30671b7ca794c5ec5680971d942436e733b82da7933befa44abbe7280d",
+      "multisig": "0xd140eE77d9e62901d8cEFf199d3ef4Dd1F4Eaff4",
+      "confirmed": true
+    }
+  ],
+  "upgrade": "v1.1.0-slashing",
+  "upgradePath": "script/releases/v1.1.0-slashing",
+  "phase": "complete",
+  "chainId": 17000,
+  "startTime": "Mon Feb 10 2025 15:17:45 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1739218665.007
+}
