@@ -1,0 +1,20 @@
+{
+  "name": "slashing-registrar-hotfix",
+  "from": "1.1.0",
+  "to": "1.1.1",
+  "phases": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig.s.sol"
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol"
+    }
+  ],
+  "commit": "917e8afe270d3c4ca78a3f5c157be05018a6a71c"
+}
