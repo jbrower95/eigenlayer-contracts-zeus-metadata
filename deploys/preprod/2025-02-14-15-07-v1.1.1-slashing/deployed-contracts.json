@@ -1,0 +1,15 @@
+{
+  "contracts": [
+    {
+      "address": "0xE185CBf9dD173b0df4E6A0eF9dDB322523D7b90e",
+      "contract": "AllocationManager_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x77a6604aeca50ac700aea2454b38adb57086fd4d43e2bf6e065f9d6768ad2cce",
+      "lastUpdatedIn": {
+        "name": "2025-02-14-15-07-v1.1.1-slashing",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
+    }
+  ]
+}
