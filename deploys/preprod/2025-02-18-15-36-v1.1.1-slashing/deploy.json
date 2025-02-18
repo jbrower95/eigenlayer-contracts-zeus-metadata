@@ -1,7 +1,7 @@
 {
   "name": "2025-02-18-15-36-v1.1.1-slashing",
   "env": "preprod",
-  "segmentId": 1,
+  "segmentId": 2,
   "segments": [
     {
       "type": "eoa",
