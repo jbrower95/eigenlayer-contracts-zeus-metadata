@@ -22,7 +22,7 @@
   "metadata": [],
   "upgrade": "v1.1.1-slashing",
   "upgradePath": "script/releases/v1.1.1-slashing",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 17000,
   "startTime": "Tue Feb 18 2025 15:36:16 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1739910976.884
