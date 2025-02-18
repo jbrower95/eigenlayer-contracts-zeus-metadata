@@ -9,7 +9,13 @@
         "name": "2025-02-18-13-50-v1.1.1-slashing",
         "phase": "eoa_wait_confirm",
         "segment": 0
-      }
+      },
+      "validations": [
+        {
+          "by": "rajathalex@gmail.com",
+          "valid": true
+        }
+      ]
     }
   ]
 }
