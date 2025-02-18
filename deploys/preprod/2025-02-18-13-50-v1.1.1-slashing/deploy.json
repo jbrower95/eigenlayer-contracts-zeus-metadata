@@ -1,7 +1,7 @@
 {
   "name": "2025-02-18-13-50-v1.1.1-slashing",
   "env": "preprod",
-  "segmentId": 1,
+  "segmentId": 2,
   "segments": [
     {
       "type": "eoa",
@@ -32,6 +32,15 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x91fa5c3262aa98f309b7eed986bcd7a2b9b1bf3d3bac5e16ae3d4da18ea1368c",
+      "multisig": "0x6d609cD2812bDA02a75dcABa7DaafE4B20Ff5608",
+      "confirmed": true,
+      "immediateExecutionHash": "0x35dea718a62fe21da4145e17cd7762eb8c1385469ffc8970a617f0c2a6a0f21d"
     }
   ],
   "upgrade": "v1.1.1-slashing",
