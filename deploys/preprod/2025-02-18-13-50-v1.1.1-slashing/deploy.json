@@ -1,7 +1,7 @@
 {
   "name": "2025-02-18-13-50-v1.1.1-slashing",
   "env": "preprod",
-  "segmentId": 0,
+  "segmentId": 1,
   "segments": [
     {
       "type": "eoa",
@@ -31,12 +31,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.1.1-slashing",
   "upgradePath": "script/releases/v1.1.1-slashing",
-  "phase": "eoa_wait_confirm",
+  "phase": "multisig_start",
   "chainId": 17000,
   "startTime": "Tue Feb 18 2025 13:50:18 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1739904618.23
