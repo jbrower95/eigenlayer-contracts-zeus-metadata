@@ -9,7 +9,13 @@
         "name": "2025-02-24-13-48-v1.2.0-slashing",
         "phase": "eoa_wait_confirm",
         "segment": 0
-      }
+      },
+      "validations": [
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
     },
     {
       "address": "0x473b5943AF507A5fDb403C67B2971E5724B64938",
@@ -20,7 +26,13 @@
         "name": "2025-02-24-13-48-v1.2.0-slashing",
         "phase": "eoa_wait_confirm",
         "segment": 0
-      }
+      },
+      "validations": [
+        {
+          "by": "michaelsun97@gmail.com",
+          "valid": true
+        }
+      ]
     }
   ]
 }
