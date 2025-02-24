@@ -47,12 +47,12 @@
       "signerType": "gnosis.api.eoa",
       "gnosisTransactionHash": "0xbebb8f701ea4f0660d6c0666bc38ada5cb6b338b540c86c2cc44816ca6fa1ff9",
       "multisig": "0xd140eE77d9e62901d8cEFf199d3ef4Dd1F4Eaff4",
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.1.1-slashing",
   "upgradePath": "script/releases/v1.1.1-slashing",
-  "phase": "multisig_wait_confirm",
+  "phase": "complete",
   "chainId": 17000,
   "startTime": "Thu Feb 20 2025 11:09:15 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1740067755.022

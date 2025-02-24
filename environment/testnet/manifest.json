@@ -1,6 +1,6 @@
 {
   "id": "testnet",
-  "deployedVersion": "1.1.0",
+  "deployedVersion": "1.1.1",
   "contracts": {
     "static": {
       "PauserRegistry_Impl": {
@@ -408,25 +408,15 @@
         ]
       },
       "AllocationManager_Impl": {
-        "address": "0xe03D546ADa84B5624b50aA22Ff8B87baDEf44ee2",
+        "address": "0x3791fCeBB2ffEFE215cB64E61B59Cfb0458DF9DC",
         "contract": "AllocationManager_Impl",
         "singleton": true,
-        "deployedBytecodeHash": "0xdaa165bb4720cb3a842d4bc2aab4e81c12b181538c192f5307565f05441aee64",
+        "deployedBytecodeHash": "0xf16bfb109a2cf43206b1d49e7f471e91f51fb3b16ed07e2f12ca0bad2f53b6c5",
         "lastUpdatedIn": {
-          "name": "2024-12-19-08-51-v1.0.2-slashing-consolidated",
+          "name": "2025-02-20-11-09-v1.1.1-slashing",
           "phase": "eoa_wait_confirm",
           "segment": 0
-        },
-        "validations": [
-          {
-            "by": "jbrower95@gmail.com",
-            "valid": true
-          },
-          {
-            "by": "michaelsun97@gmail.com",
-            "valid": true
-          }
-        ]
+        }
       },
       "AllocationManager_Proxy": {
         "address": "0x78469728304326CBc65f8f95FA756B0B73164462",
@@ -585,6 +575,6 @@
       }
     ]
   },
-  "latestDeployedCommit": "64c028333856ab2ae603fcde94fc9b24715ef603",
+  "latestDeployedCommit": "1dce4ed53df3dfcba5878c9b7516006dcf330858",
   "chainId": 17000
 }
