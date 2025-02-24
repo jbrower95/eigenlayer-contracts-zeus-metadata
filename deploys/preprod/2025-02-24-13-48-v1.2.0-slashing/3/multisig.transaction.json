@@ -1,0 +1,51 @@
+{
+  "safe": "0x546D3b66B27dCb94777d7eFC3825b10675FE5D95",
+  "to": "0xB8d8952f572e67B11e43bC21250967772fa883Ff",
+  "value": "0",
+  "data": "0x136439dd00000000000000000000000000000000000000000000000000000000000001c4",
+  "operation": 0,
+  "gasToken": "0x0000000000000000000000000000000000000000",
+  "safeTxGas": 0,
+  "baseGas": 0,
+  "gasPrice": "0",
+  "refundReceiver": "0x0000000000000000000000000000000000000000",
+  "nonce": 3,
+  "executionDate": null,
+  "submissionDate": "2025-02-24T21:31:27.339954Z",
+  "modified": "2025-02-24T21:31:27.391963Z",
+  "blockNumber": null,
+  "transactionHash": null,
+  "safeTxHash": "0x1f65b7f2c2dde55049c2a5bff25c9c0281cb01f889d937a32dcd1a10e0bab5d7",
+  "proposer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+  "executor": null,
+  "isExecuted": false,
+  "isSuccessful": null,
+  "ethGasPrice": null,
+  "maxFeePerGas": null,
+  "maxPriorityFeePerGas": null,
+  "gasUsed": null,
+  "fee": null,
+  "origin": "{}",
+  "dataDecoded": {
+    "method": "pause",
+    "parameters": [
+      {
+        "name": "newPausedStatus",
+        "type": "uint256",
+        "value": "452"
+      }
+    ]
+  },
+  "confirmationsRequired": 1,
+  "confirmations": [
+    {
+      "owner": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "submissionDate": "2025-02-24T21:31:27.391963Z",
+      "transactionHash": null,
+      "signature": "0xa4534e7b62cb376f71d5f4b8eda6183dc46fac86983e9d70d78dce4220b66cd878a34d2e1c19a3d3e8dfcff1ee06a0d924898a1320d3b75f082be9ed5fda03b71b",
+      "signatureType": "EOA"
+    }
+  ],
+  "trusted": true,
+  "signatures": null
+}
