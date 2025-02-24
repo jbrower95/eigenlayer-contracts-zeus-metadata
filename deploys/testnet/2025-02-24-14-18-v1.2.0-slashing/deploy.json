@@ -1,7 +1,7 @@
 {
   "name": "2025-02-24-14-18-v1.2.0-slashing",
   "env": "testnet",
-  "segmentId": 1,
+  "segmentId": 2,
   "segments": [
     {
       "type": "eoa",
@@ -78,12 +78,12 @@
       "signerType": "gnosis.api.eoa",
       "gnosisTransactionHash": "0x82104a62af3bb24f7e0f9d19b2d7cd726b81a748393319004e9890fd0f26946a",
       "multisig": "0xfaEF7338b7490b9E272d80A1a39f4657cAf2b97d",
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.2.0-slashing",
   "upgradePath": "script/releases/v1.2.0-slashing",
-  "phase": "multisig_wait_confirm",
+  "phase": "multisig_start",
   "chainId": 17000,
   "startTime": "Mon Feb 24 2025 14:18:53 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1740424733.261
