@@ -53,10 +53,29 @@
       "id": 7
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0x47225a72D151905ccd08B7E5Db7f35B644b43af8",
+          "contract": "EigenPodManager_Impl",
+          "singleton": true
+        },
+        {
+          "address": "0x3c3fd29201A0e04B70A0bDFD8C90cb038473254b",
+          "contract": "EigenPod_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "v1.2.0-slashing",
   "upgradePath": "script/releases/v1.2.0-slashing",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 17000,
   "startTime": "Mon Feb 24 2025 14:18:53 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1740424733.261
