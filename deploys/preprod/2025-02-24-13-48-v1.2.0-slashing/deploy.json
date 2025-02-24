@@ -95,11 +95,19 @@
       "gnosisTransactionHash": "0x1f65b7f2c2dde55049c2a5bff25c9c0281cb01f889d937a32dcd1a10e0bab5d7",
       "multisig": "0x546D3b66B27dCb94777d7eFC3825b10675FE5D95",
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xDA29BB71669f46F2a779b4b62f03644A84eE3479",
+      "signerType": "gnosis.api.eoa",
+      "gnosisTransactionHash": "0x703226d9889513d912e6aca20508c24faa0ce16f7e2d6dc4a27c93d0ffc22924",
+      "multisig": "0x314A6B61B5CBFA79dc7b2c0416e039822E886b54",
+      "confirmed": false
     }
   ],
   "upgrade": "v1.2.0-slashing",
   "upgradePath": "script/releases/v1.2.0-slashing",
-  "phase": "multisig_start",
+  "phase": "multisig_wait_signers",
   "chainId": 17000,
   "startTime": "Mon Feb 24 2025 13:48:38 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1740422918.513
