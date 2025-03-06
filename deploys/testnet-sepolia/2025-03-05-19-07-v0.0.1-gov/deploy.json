@@ -36,12 +36,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v0.0.1-gov",
   "upgradePath": "script/releases/v0.0.1-gov",
-  "phase": "eoa_wait_confirm",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Wed Mar 05 2025 19:07:32 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1741219652.935
