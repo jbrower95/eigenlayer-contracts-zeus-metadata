@@ -1,0 +1,19 @@
+{
+  "name": "2025-03-05-19-07-v0.0.1-gov",
+  "env": "testnet-sepolia",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v0.0.1-gov",
+  "upgradePath": "script/releases/v0.0.1-gov",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Wed Mar 05 2025 19:07:32 GMT-0500 (Eastern Standard Time)",
+  "startTimestamp": 1741219652.935
+}
