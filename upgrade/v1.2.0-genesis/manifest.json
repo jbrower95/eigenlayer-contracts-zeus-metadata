@@ -1,6 +1,6 @@
 {
   "name": "slashing-genesis",
-  "from": "0.0.0",
+  "from": "0.0.1",
   "to": "1.2.0",
   "phases": [
     {
@@ -20,5 +20,5 @@
       "filename": "4-disable-eigenpods.s.sol"
     }
   ],
-  "commit": "ff4ef16b812c2acc314e03c5e1e31d2699b400bc"
+  "commit": "d4e24efba573c857434fd92bcc62ce13bf9a307e"
 }
