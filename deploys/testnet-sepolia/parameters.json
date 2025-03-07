@@ -1,4 +1,5 @@
 {
+  "ethPOS": "0x0000000000000000000000000000000000000000",
   "safeFactory": "0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67",
   "safeSingleton": "0x41675c099f32341bf84bfc5382af534df5c7461a",
   "safeFallbackHandler": "0xfd0732dc9e303f09fcef3a7388ad10a83459ec99",
