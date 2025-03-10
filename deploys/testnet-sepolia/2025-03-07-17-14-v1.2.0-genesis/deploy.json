@@ -1,7 +1,7 @@
 {
   "name": "2025-03-07-17-14-v1.2.0-genesis",
   "env": "testnet-sepolia",
-  "segmentId": 2,
+  "segmentId": 1,
   "segments": [
     {
       "type": "eoa",
