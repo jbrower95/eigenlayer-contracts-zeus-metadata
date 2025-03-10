@@ -163,7 +163,7 @@
   ],
   "upgrade": "v1.2.0-genesis",
   "upgradePath": "script/releases/v1.2.0-genesis",
-  "phase": "multisig_execute",
+  "phase": "multisig_wait_confirm",
   "chainId": 11155111,
   "startTime": "Fri Mar 07 2025 17:14:33 GMT-0500 (Eastern Standard Time)",
   "startTimestamp": 1741385673.887
