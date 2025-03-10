@@ -10,7 +10,7 @@
     },
     {
       "type": "multisig",
-      "filename": "2-queue.sol",
+      "filename": "2-queue.s.sol",
       "id": 1
     },
     {
