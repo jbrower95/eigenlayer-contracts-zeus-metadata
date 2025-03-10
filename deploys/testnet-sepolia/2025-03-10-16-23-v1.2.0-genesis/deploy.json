@@ -170,11 +170,20 @@
       "multisig": "0xFB5195D8e0d5B38fd195d31292099C86C9A37445",
       "confirmed": true,
       "immediateExecutionHash": "0x501046c8e355e9965c8f764820af519f4deaa2d48c042b37f971e8778878dc43"
+    },
+    {
+      "type": "multisig",
+      "signer": "0xD39A1922fBe6c083f7A2d02CA05eA7bE2af52bA8",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x06b64b20fa87d0389b0d34661b994c0818fde891fbf6e5489282ea8ca5a50d4a",
+      "multisig": "0x3dA79E401012f5b9bDd826aa19D61E9660eA830E",
+      "confirmed": true,
+      "immediateExecutionHash": "0x1b6cc8cf7ab1a0fd2a074b1011668e2b4d1d6db637d48d49f7b0a59ca55cc320"
     }
   ],
   "upgrade": "v1.2.0-genesis",
   "upgradePath": "script/releases/v1.2.0-genesis",
-  "phase": "multisig_start",
+  "phase": "complete",
   "chainId": 11155111,
   "startTime": "Mon Mar 10 2025 16:23:01 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1741638181.023
