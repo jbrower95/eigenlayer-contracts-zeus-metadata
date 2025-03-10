@@ -1,7 +1,7 @@
 {
   "name": "2025-03-10-14-33-v1.2.0-genesis",
   "env": "testnet-sepolia",
-  "segmentId": 1,
+  "segmentId": 2,
   "segments": [
     {
       "type": "eoa",
@@ -152,6 +152,15 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xD39A1922fBe6c083f7A2d02CA05eA7bE2af52bA8",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x0b565c386615c4e23d367a820b33427b2491e72abc44244d36cb9b7d4e067937",
+      "multisig": "0xFB5195D8e0d5B38fd195d31292099C86C9A37445",
+      "confirmed": true,
+      "immediateExecutionHash": "0x7050a485bd9dbe9a804da7a34726b7b9d07779939406a9987151346957f413ca"
     }
   ],
   "upgrade": "v1.2.0-genesis",
