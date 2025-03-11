@@ -19,10 +19,24 @@
       "id": 2
     }
   ],
-  "metadata": [],
+  "metadata": [
+    {
+      "type": "eoa",
+      "signer": "0xD39A1922fBe6c083f7A2d02CA05eA7bE2af52bA8",
+      "transactions": [],
+      "deployments": [
+        {
+          "address": "0xF80ABAEde3fCaB0f33Ae3dB7E033324BAE553Ad8",
+          "contract": "EmptyContract_Impl",
+          "singleton": true
+        }
+      ],
+      "confirmed": false
+    }
+  ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 11155111,
   "startTime": "Tue Mar 11 2025 12:55:40 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1741712140.733
