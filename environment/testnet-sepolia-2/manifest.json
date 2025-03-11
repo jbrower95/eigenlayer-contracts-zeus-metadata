@@ -299,10 +299,21 @@
           "phase": "eoa_wait_confirm",
           "segment": 0
         }
+      },
+      "EmptyContract_Impl": {
+        "address": "0xF80ABAEde3fCaB0f33Ae3dB7E033324BAE553Ad8",
+        "contract": "EmptyContract_Impl",
+        "singleton": true,
+        "deployedBytecodeHash": "0x7bdd84da7c7833e990b83280c6151e8180f0316b2b98d140987e0b40c26105a7",
+        "lastUpdatedIn": {
+          "name": "2025-03-11-12-55-zeus-example",
+          "phase": "eoa_wait_confirm",
+          "segment": 0
+        }
       }
     },
     "instances": []
   },
-  "latestDeployedCommit": "d4e24efba573c857434fd92bcc62ce13bf9a307e",
+  "latestDeployedCommit": "00feebce7cb458f4d18a8232e13f0c84592f089a",
   "chainId": 11155111
 }
