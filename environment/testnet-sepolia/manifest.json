@@ -1,48 +1,48 @@
 {
   "id": "testnet-sepolia",
-  "deployedVersion": "0.0.0",
+  "deployedVersion": "0.0.1",
   "contracts": {
     "static": {
       "BackingEigen_Proxy": {
-        "address": "0x6A6E7FaFf0988455111dd24Cc185550c723796F8",
+        "address": "0x7B629b6bACbf098e1d68F0Ff8e7Bcc5926f841bf",
         "contract": "BackingEigen_Proxy",
         "singleton": true,
         "deployedBytecodeHash": "0xf059d371f0a07fe6145fd316f41c21922adaea250467883bd858b614a9190f43",
         "lastUpdatedIn": {
-          "name": "2025-03-05-19-07-v0.0.1-gov",
+          "name": "2025-03-12-13-36-v0.0.1-gov",
           "phase": "eoa_wait_confirm",
           "segment": 0
         }
       },
       "Eigen_Proxy": {
-        "address": "0x15d7D3408B2d5a1E6bcFaE9e121D1DDaCEA8D7f8",
+        "address": "0x493A565f5Df676fe81341654Dcd18B77E2C40f9B",
         "contract": "Eigen_Proxy",
         "singleton": true,
         "deployedBytecodeHash": "0x068b0b9a18abdc48a75d9626e6ae40d6b47dfc3639ba6fb19bdbd1bda397d240",
         "lastUpdatedIn": {
-          "name": "2025-03-05-19-07-v0.0.1-gov",
+          "name": "2025-03-12-13-36-v0.0.1-gov",
           "phase": "eoa_wait_confirm",
           "segment": 0
         }
       },
       "BackingEigen_Impl": {
-        "address": "0xBda1Ce7CF5A6000aBc4aA9b921FDb6e6574885a1",
+        "address": "0xafC1383741CF6Eb2eE353d5D236B6f0bC546fb84",
         "contract": "BackingEigen_Impl",
         "singleton": true,
         "deployedBytecodeHash": "0xf059d371f0a07fe6145fd316f41c21922adaea250467883bd858b614a9190f43",
         "lastUpdatedIn": {
-          "name": "2025-03-05-19-07-v0.0.1-gov",
+          "name": "2025-03-12-13-36-v0.0.1-gov",
           "phase": "eoa_wait_confirm",
           "segment": 0
         }
       },
       "Eigen_Impl": {
-        "address": "0x05dDbB0F502D2B1CEcd416c4D41056c38821eB96",
+        "address": "0x4C64C103D4Fba260bC8997C2EC520195E469f57E",
         "contract": "Eigen_Impl",
         "singleton": true,
         "deployedBytecodeHash": "0x068b0b9a18abdc48a75d9626e6ae40d6b47dfc3639ba6fb19bdbd1bda397d240",
         "lastUpdatedIn": {
-          "name": "2025-03-05-19-07-v0.0.1-gov",
+          "name": "2025-03-12-13-36-v0.0.1-gov",
           "phase": "eoa_wait_confirm",
           "segment": 0
         }
@@ -303,6 +303,6 @@
     },
     "instances": []
   },
-  "latestDeployedCommit": "d4e24efba573c857434fd92bcc62ce13bf9a307e",
+  "latestDeployedCommit": "47f2fee1f1b07020fd93c29ab94b1a9819df885f",
   "chainId": 11155111
 }
