@@ -1,0 +1,64 @@
+{
+  "mutations": [
+    {
+      "prev": "0x71F9406922DcF3F7947c8aeD7638B6fC7e4E2458",
+      "next": "0x67794C67Af20Eb31dbE3360B674a0746762F0650",
+      "name": "timelockController",
+      "internalType": 4
+    },
+    {
+      "prev": "0xafF200C953ae90c28Aa6171B5698602c768E1f51",
+      "next": "0x771De3E057CfE7D58214bd16Ca1a0EC5125135Bf",
+      "name": "beigenTimelockController",
+      "internalType": 4
+    },
+    {
+      "prev": "0x3dA79E401012f5b9bDd826aa19D61E9660eA830E",
+      "next": "0x85F6f4d4110EeCC6Fe066Eb1335675717D848027",
+      "name": "pauserMultisig",
+      "internalType": 4
+    },
+    {
+      "prev": "0xE8C9D00ec3B9e05f3829880488106fdB7a7f64C7",
+      "next": "0x871a5938d695Fe41DBa0ed15bEB52d6F93D45352",
+      "name": "operationsMultisig",
+      "internalType": 4
+    },
+    {
+      "prev": "0xFB5195D8e0d5B38fd195d31292099C86C9A37445",
+      "next": "0x6e8720B32f216d8cB8277A501f3c5Dadc1c5F1De",
+      "name": "protocolCouncilMultisig",
+      "internalType": 4
+    },
+    {
+      "prev": "0xf0B2317CB65d4f946eb5e8509346EF4fc5cFAab7",
+      "next": "0x5575daAA39Fc4F5be827c9A3185709569418CDBd",
+      "name": "communityMultisig",
+      "internalType": 4
+    },
+    {
+      "prev": "0x5B3eBbfe2a825F78824a82C231d6C73186532144",
+      "next": "0x7a1207f1C8abE9A523Bcfd2E16D8b71631E52BF1",
+      "name": "executorMultisig",
+      "internalType": 4
+    },
+    {
+      "prev": "0xea14A6CDa925824187AEE2Bc990375CA339819dd",
+      "next": "0x3E65F640265535Ac1f9fa9a43fDf062C3Af9876A",
+      "name": "beigenExecutorMultisig",
+      "internalType": 4
+    },
+    {
+      "prev": "0x9d6A61236F1d406d24ebBFb286044d5a67332c66",
+      "next": "0x7F41E6fEd4196A2d28cba83B9DAB3dB6a8E18DDa",
+      "name": "proxyAdmin",
+      "internalType": 4
+    },
+    {
+      "prev": "0x6fD91F2fe20b49e96088CD78E05B43A0f6FC9c03",
+      "next": "0x00687cC01ba2E804dC46B625F9F6A6B0F0D414C0",
+      "name": "beigenProxyAdmin",
+      "internalType": 4
+    }
+  ]
+}
