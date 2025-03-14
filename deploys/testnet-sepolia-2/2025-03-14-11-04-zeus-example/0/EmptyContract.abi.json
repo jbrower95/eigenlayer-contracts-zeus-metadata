@@ -1,0 +1,101 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "name": "foo",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "pure"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600e575f5ffd5b50607380601a5f395ff3fe6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063c298557814602a575b5f5ffd5b5f60405190815260200160405180910390f3fea264697066735822122014e38975e0ee04d2822a2368bdfe965420228a1327c1f86b004387b7caf1b89c64736f6c634300081b0033",
+    "sourceMap": "63:101:212:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063c298557814602a575b5f5ffd5b5f60405190815260200160405180910390f3fea264697066735822122014e38975e0ee04d2822a2368bdfe965420228a1327c1f86b004387b7caf1b89c64736f6c634300081b0033",
+    "sourceMap": "63:101:212:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;92:70;128:7;92:70;;160:25:243;;;148:2;133:18;92:70:212;;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "foo()": "c2985578"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"foo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/test/mocks/EmptyContract.sol\":\"EmptyContract\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin-upgrades/=lib/openzeppelin-contracts-upgradeable-v4.9.0/\",\":@openzeppelin/=lib/openzeppelin-contracts-v4.9.0/\",\":ds-test/=lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable-v4.9.0/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable-v4.9.0/=lib/openzeppelin-contracts-upgradeable-v4.9.0/\",\":openzeppelin-contracts-v4.9.0/=lib/openzeppelin-contracts-v4.9.0/\",\":openzeppelin/=lib/openzeppelin-contracts-upgradeable-v4.9.0/contracts/\",\":zeus-templates/=lib/zeus-templates/src/\"]},\"sources\":{\"src/test/mocks/EmptyContract.sol\":{\"keccak256\":\"0x57586951d59ca4b3f628b118be2a0decbd3a4ba4f665ee0e134aaa683bfce699\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://5d11b3340b8566b032c5a84832dee71b404371ad3ac3d3e394c943b69118c31a\",\"dweb:/ipfs/QmaD5Dfb1E7HJSZtoA5MyYHNSy7Kgx4wQQhDerCTJSYehb\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.27+commit.40a35a09"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "foo",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin-upgrades/=lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+        "@openzeppelin/=lib/openzeppelin-contracts-v4.9.0/",
+        "ds-test/=lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable-v4.9.0/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable-v4.9.0/=lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+        "openzeppelin-contracts-v4.9.0/=lib/openzeppelin-contracts-v4.9.0/",
+        "openzeppelin/=lib/openzeppelin-contracts-upgradeable-v4.9.0/contracts/",
+        "zeus-templates/=lib/zeus-templates/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/test/mocks/EmptyContract.sol": "EmptyContract"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "sources": {
+      "src/test/mocks/EmptyContract.sol": {
+        "keccak256": "0x57586951d59ca4b3f628b118be2a0decbd3a4ba4f665ee0e134aaa683bfce699",
+        "urls": [
+          "bzz-raw://5d11b3340b8566b032c5a84832dee71b404371ad3ac3d3e394c943b69118c31a",
+          "dweb:/ipfs/QmaD5Dfb1E7HJSZtoA5MyYHNSy7Kgx4wQQhDerCTJSYehb"
+        ],
+        "license": "BUSL-1.1"
+      }
+    },
+    "version": 1
+  },
+  "id": 212
+}
