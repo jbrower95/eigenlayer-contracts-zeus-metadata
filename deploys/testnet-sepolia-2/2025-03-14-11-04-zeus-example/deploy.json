@@ -51,7 +51,7 @@
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "multisig_wait_signers",
+  "phase": "multisig_execute",
   "chainId": 11155111,
   "startTime": "Fri Mar 14 2025 11:04:15 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1741964655.263
