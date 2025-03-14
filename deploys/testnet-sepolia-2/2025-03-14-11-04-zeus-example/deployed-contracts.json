@@ -9,7 +9,13 @@
         "name": "2025-03-14-11-04-zeus-example",
         "phase": "eoa_wait_confirm",
         "segment": 0
-      }
+      },
+      "validations": [
+        {
+          "by": "jbrower95@gmail.com",
+          "valid": true
+        }
+      ]
     }
   ]
 }
