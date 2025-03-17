@@ -1,4 +1,6 @@
 {
+  "weth": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+  "steth": "0x00c71b0fCadE911B2feeE9912DE4Fe19eB04ca56",
   "supportsNativeEthRestaking": false,
   "MultiSendCallOnly": "0x9641d764fc13c8B624c04430C7356C1C7C8102e2",
   "ALLOCATION_MANAGER_INIT_PAUSED_STATUS": 0,
