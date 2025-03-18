@@ -1,7 +1,7 @@
 {
   "name": "2025-03-17-21-08-v1.3.0-genesis",
   "env": "testnet-sepolia",
-  "segmentId": 3,
+  "segmentId": 4,
   "segments": [
     {
       "type": "eoa",
@@ -175,11 +175,20 @@
       "multisig": "0x6e8720B32f216d8cB8277A501f3c5Dadc1c5F1De",
       "confirmed": true,
       "immediateExecutionHash": "0x3efc6572ea7e53862ae093a399612ad526008b69fd2d1d3a0c7c397c98aacc94"
+    },
+    {
+      "type": "multisig",
+      "signer": "0xD39A1922fBe6c083f7A2d02CA05eA7bE2af52bA8",
+      "signerType": "gnosis.onchain",
+      "gnosisTransactionHash": "0x5ae9a65d91c915710040a51c469ae948b0c75407f5702572c2c006d602b37396",
+      "multisig": "0x85F6f4d4110EeCC6Fe066Eb1335675717D848027",
+      "confirmed": true,
+      "immediateExecutionHash": "0x2821675d603e95ff5cc1ba5fb5d639f1eb9085bc16cb1745ba93a76058553864"
     }
   ],
   "upgrade": "v1.3.0-genesis",
   "upgradePath": "script/releases/v1.3.0-genesis",
-  "phase": "multisig_start",
+  "phase": "eoa_validate",
   "chainId": 11155111,
   "startTime": "Mon Mar 17 2025 21:08:25 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1742260105.468
