@@ -20,9 +20,9 @@
       "filename": "4-disable-eigenpods.s.sol"
     },
     {
-      "type": "eoa",
+      "type": "multisig",
       "filename": "5-strategies.s.sol"
     }
   ],
-  "commit": "a2afdb6ff62bbef84f21bd737ddef353008500bd"
+  "commit": "84db1531b966fda9f4048c2828cdcfbbf342b696"
 }
