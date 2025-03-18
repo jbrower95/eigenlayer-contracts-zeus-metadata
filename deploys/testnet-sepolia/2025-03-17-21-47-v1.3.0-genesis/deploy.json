@@ -1,0 +1,39 @@
+{
+  "name": "2025-03-17-21-47-v1.3.0-genesis",
+  "env": "testnet-sepolia",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-deploy.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-queue.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-execute.s.sol",
+      "id": 2
+    },
+    {
+      "type": "multisig",
+      "filename": "4-disable-eigenpods.s.sol",
+      "id": 3
+    },
+    {
+      "type": "multisig",
+      "filename": "5-strategies.s.sol",
+      "id": 4
+    }
+  ],
+  "metadata": [],
+  "upgrade": "v1.3.0-genesis",
+  "upgradePath": "script/releases/v1.3.0-genesis",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Mon Mar 17 2025 21:47:28 GMT-0400 (Eastern Daylight Time)",
+  "startTimestamp": 1742262448.948
+}
