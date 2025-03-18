@@ -1,7 +1,7 @@
 {
   "name": "2025-03-17-21-08-v1.3.0-genesis",
   "env": "testnet-sepolia",
-  "segmentId": 0,
+  "segmentId": 1,
   "segments": [
     {
       "type": "eoa",
@@ -156,12 +156,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "v1.3.0-genesis",
   "upgradePath": "script/releases/v1.3.0-genesis",
-  "phase": "eoa_wait_confirm",
+  "phase": "multisig_start",
   "chainId": 11155111,
   "startTime": "Mon Mar 17 2025 21:08:25 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1742260105.468
