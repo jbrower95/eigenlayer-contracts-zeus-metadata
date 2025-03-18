@@ -1,6 +1,6 @@
 {
   "id": "testnet-sepolia",
-  "deployedVersion": "1.3.0",
+  "deployedVersion": "0.0.1",
   "contracts": {
     "static": {
       "BackingEigen_Proxy": {
