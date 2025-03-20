@@ -1,0 +1,48 @@
+{
+  "contracts": [
+    {
+      "address": "0x6A6E7FaFf0988455111dd24Cc185550c723796F8",
+      "contract": "BackingEigen_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0xf059d371f0a07fe6145fd316f41c21922adaea250467883bd858b614a9190f43",
+      "lastUpdatedIn": {
+        "name": "2025-03-20-15-18-v0.0.1-gov",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
+    },
+    {
+      "address": "0x15d7D3408B2d5a1E6bcFaE9e121D1DDaCEA8D7f8",
+      "contract": "Eigen_Proxy",
+      "singleton": true,
+      "deployedBytecodeHash": "0x068b0b9a18abdc48a75d9626e6ae40d6b47dfc3639ba6fb19bdbd1bda397d240",
+      "lastUpdatedIn": {
+        "name": "2025-03-20-15-18-v0.0.1-gov",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
+    },
+    {
+      "address": "0xBda1Ce7CF5A6000aBc4aA9b921FDb6e6574885a1",
+      "contract": "BackingEigen_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xf059d371f0a07fe6145fd316f41c21922adaea250467883bd858b614a9190f43",
+      "lastUpdatedIn": {
+        "name": "2025-03-20-15-18-v0.0.1-gov",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
+    },
+    {
+      "address": "0x05dDbB0F502D2B1CEcd416c4D41056c38821eB96",
+      "contract": "Eigen_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0x068b0b9a18abdc48a75d9626e6ae40d6b47dfc3639ba6fb19bdbd1bda397d240",
+      "lastUpdatedIn": {
+        "name": "2025-03-20-15-18-v0.0.1-gov",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
+    }
+  ]
+}
