@@ -1,0 +1,128 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "name": "increment",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "stateVar",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600e575f5ffd5b5060c080601a5f395ff3fe6080604052348015600e575f5ffd5b50600436106030575f3560e01c8063793816ec146034578063d09de08a14604d575b5f5ffd5b603b5f5481565b60405190815260200160405180910390f35b603b5f80548180605b836067565b91905055505f54905090565b5f60018201608357634e487b7160e01b5f52601160045260245ffd5b506001019056fea2646970667358221220a3c59cf7177b54e307529559db4eef9ee65b28046c28769974401fde335f74ac64736f6c634300081b0033",
+    "sourceMap": "63:159:100:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600e575f5ffd5b50600436106030575f3560e01c8063793816ec146034578063d09de08a14604d575b5f5ffd5b603b5f5481565b60405190815260200160405180910390f35b603b5f80548180605b836067565b91905055505f54905090565b5f60018201608357634e487b7160e01b5f52601160045260245ffd5b506001019056fea2646970667358221220a3c59cf7177b54e307529559db4eef9ee65b28046c28769974401fde335f74ac64736f6c634300081b0033",
+    "sourceMap": "63:159:100:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;92:23;;;;;;;;;160:25:238;;;148:2;133:18;92:23:100;;;;;;;122:98;;159:7;178:10;;159:7;;178:10;;;:::i;:::-;;;;;;205:8;;198:15;;122:98;:::o;196:232:238:-;235:3;256:17;;;253:140;;315:10;310:3;306:20;303:1;296:31;350:4;347:1;340:15;378:4;375:1;368:15;253:140;-1:-1:-1;420:1:238;409:13;;196:232::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "increment()": "d09de08a",
+    "stateVar()": "793816ec"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"increment\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"stateVar\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"script/releases/zeus-example/EmptyContract.sol\":\"EmptyContract\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin-upgrades/=lib/openzeppelin-contracts-upgradeable-v4.9.0/\",\":@openzeppelin/=lib/openzeppelin-contracts-v4.9.0/\",\":ds-test/=lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts-upgradeable-v4.9.0/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable-v4.9.0/=lib/openzeppelin-contracts-upgradeable-v4.9.0/\",\":openzeppelin-contracts-v4.9.0/=lib/openzeppelin-contracts-v4.9.0/\",\":openzeppelin/=lib/openzeppelin-contracts-upgradeable-v4.9.0/contracts/\",\":zeus-templates/=lib/zeus-templates/src/\"]},\"sources\":{\"script/releases/zeus-example/EmptyContract.sol\":{\"keccak256\":\"0xf9eb07990b219c2961155d7e7589e36508617126abfce5df776ff5ce75488c86\",\"license\":\"BUSL-1.1\",\"urls\":[\"bzz-raw://93eeed81c5bb09a8359db06fece785b0711721f801c4845807ac70fccbb4fecb\",\"dweb:/ipfs/QmU5K1pyJFtb332735c35ySpoy5M9su3wok5im67Ko3Spt\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.27+commit.40a35a09"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "increment",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "stateVar",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin-upgrades/=lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+        "@openzeppelin/=lib/openzeppelin-contracts-v4.9.0/",
+        "ds-test/=lib/ds-test/src/",
+        "erc4626-tests/=lib/openzeppelin-contracts-upgradeable-v4.9.0/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "openzeppelin-contracts-upgradeable-v4.9.0/=lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+        "openzeppelin-contracts-v4.9.0/=lib/openzeppelin-contracts-v4.9.0/",
+        "openzeppelin/=lib/openzeppelin-contracts-upgradeable-v4.9.0/contracts/",
+        "zeus-templates/=lib/zeus-templates/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "script/releases/zeus-example/EmptyContract.sol": "EmptyContract"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "sources": {
+      "script/releases/zeus-example/EmptyContract.sol": {
+        "keccak256": "0xf9eb07990b219c2961155d7e7589e36508617126abfce5df776ff5ce75488c86",
+        "urls": [
+          "bzz-raw://93eeed81c5bb09a8359db06fece785b0711721f801c4845807ac70fccbb4fecb",
+          "dweb:/ipfs/QmU5K1pyJFtb332735c35ySpoy5M9su3wok5im67Ko3Spt"
+        ],
+        "license": "BUSL-1.1"
+      }
+    },
+    "version": 1
+  },
+  "id": 100
+}
