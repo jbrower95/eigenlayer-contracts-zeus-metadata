@@ -22,7 +22,7 @@
   "metadata": [],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "",
+  "phase": "eoa_start",
   "chainId": 11155111,
   "startTime": "Fri Apr 11 2025 11:30:33 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1744385433.335
