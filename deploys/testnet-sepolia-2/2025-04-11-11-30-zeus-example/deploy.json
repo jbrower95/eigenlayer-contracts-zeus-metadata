@@ -26,7 +26,7 @@
       "transactions": [],
       "deployments": [
         {
-          "address": "0x68F3E0B02b15F96B50aC73d7680F020B646D2FE9",
+          "address": "0x7164d953e68B76bc287F2B711F76482c8F76e37D",
           "contract": "EmptyContract_Impl",
           "singleton": true
         }
@@ -36,7 +36,7 @@
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "eoa_start",
+  "phase": "eoa_wait_confirm",
   "chainId": 11155111,
   "startTime": "Fri Apr 11 2025 11:30:33 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1744385433.335

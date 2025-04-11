@@ -10,6 +10,17 @@
         "phase": "eoa_wait_confirm",
         "segment": 0
       }
+    },
+    {
+      "address": "0x7164d953e68B76bc287F2B711F76482c8F76e37D",
+      "contract": "EmptyContract_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc195d6ba012880cf9d73afbc77befa0c562814c9032d66b70ec2a71eebf533b6",
+      "lastUpdatedIn": {
+        "name": "2025-04-11-11-30-zeus-example",
+        "phase": "eoa_wait_confirm",
+        "segment": 0
+      }
     }
   ]
 }
