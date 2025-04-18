@@ -41,16 +41,16 @@
     },
     {
       "type": "multisig",
-      "signer": "0xcf1678fAde0e8b6096bc078d9aCBfc23432e7825",
+      "signer": "0x4073992f77267bfb91ffd2e4002c3de55739032d9b94fb7e9de0ecd1ec832af9776052a6513d0f5edc5304591061275ca586ffa90f7aed903f1a0da4e6db4e5f1c",
       "signerType": "gnosis.api.web",
-      "gnosisTransactionHash": "a1a7d3601ed2628cde61beca90cb1cbe9fa46f045f3fcfb4bd70b458d9b857ad",
+      "gnosisTransactionHash": "0xf786e771757f48ad21af24851af06a8f2edd14d7ef8739ae7e644638c9c104d8",
       "multisig": "0xE8C9D00ec3B9e05f3829880488106fdB7a7f64C7",
       "confirmed": false
     }
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "multisig_start",
+  "phase": "multisig_wait_signers",
   "chainId": 11155111,
   "startTime": "Fri Apr 18 2025 18:02:58 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1745013778.667
