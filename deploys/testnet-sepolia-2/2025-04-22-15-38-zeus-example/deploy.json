@@ -38,11 +38,19 @@
       "signerType": "gnosis.api.web",
       "multisig": "0xE8C9D00ec3B9e05f3829880488106fdB7a7f64C7",
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signer": "0xa759c92d9a6ab12ad7cd39201c1f6ca3f41a05c65b2bd9005374e6152bec56101aa52d1279e41c0bed2d69bf905cc9bff4ca43c6eb1695512a2e6c7e284ae2031b",
+      "signerType": "gnosis.api.web",
+      "gnosisTransactionHash": "0x552460aa53f3764213a290474ddbef9771c2fceb840744817645aa25c432d7a9",
+      "multisig": "0xE8C9D00ec3B9e05f3829880488106fdB7a7f64C7",
+      "confirmed": false
     }
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "multisig_start",
+  "phase": "multisig_wait_signers",
   "chainId": 11155111,
   "startTime": "Tue Apr 22 2025 15:38:14 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1745350694.311
