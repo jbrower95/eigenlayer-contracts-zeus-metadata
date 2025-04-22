@@ -1,7 +1,7 @@
 {
   "name": "2025-04-22-15-38-zeus-example",
   "env": "testnet-sepolia-2",
-  "segmentId": 1,
+  "segmentId": 2,
   "segments": [
     {
       "type": "eoa",
@@ -42,7 +42,7 @@
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "multisig_wait_signers",
+  "phase": "multisig_start",
   "chainId": 11155111,
   "startTime": "Tue Apr 22 2025 15:38:14 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1745350694.311
