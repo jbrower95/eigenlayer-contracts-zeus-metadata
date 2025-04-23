@@ -32,11 +32,17 @@
         }
       ],
       "confirmed": true
+    },
+    {
+      "type": "multisig",
+      "signerType": "gnosis.api.web",
+      "multisig": "0xE8C9D00ec3B9e05f3829880488106fdB7a7f64C7",
+      "confirmed": true
     }
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "multisig_start",
+  "phase": "multisig_wait_signers",
   "chainId": 11155111,
   "startTime": "Wed Apr 23 2025 11:10:17 GMT-0400 (Eastern Daylight Time)",
   "startTimestamp": 1745421017.324
