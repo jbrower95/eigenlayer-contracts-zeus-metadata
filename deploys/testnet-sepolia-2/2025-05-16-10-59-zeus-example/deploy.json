@@ -1,7 +1,7 @@
 {
   "name": "2025-05-16-10-59-zeus-example",
   "env": "testnet-sepolia-2",
-  "segmentId": 0,
+  "segmentId": 1,
   "segments": [
     {
       "type": "eoa",
@@ -31,12 +31,12 @@
           "singleton": true
         }
       ],
-      "confirmed": false
+      "confirmed": true
     }
   ],
   "upgrade": "zeus-example",
   "upgradePath": "script/releases/zeus-example",
-  "phase": "eoa_wait_confirm",
+  "phase": "multisig_start",
   "chainId": 11155111,
   "startTime": "Fri May 16 2025 10:59:28 GMT-0700 (Pacific Daylight Time)",
   "startTimestamp": 1747418368.479
