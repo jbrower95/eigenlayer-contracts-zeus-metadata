@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "address": "0x61e9AAFD07bb672ab8d949E26d370A143A22A7cF",
+      "contract": "EmptyContract_Impl",
+      "singleton": true,
+      "deployedBytecodeHash": "0xc195d6ba012880cf9d73afbc77befa0c562814c9032d66b70ec2a71eebf533b6",
+      "lastUpdatedIn": {
+        "name": "2025-05-16-10-59-zeus-example",
+        "phase": "eoa_wait_confirm",
+        "segment": 0,
+        "signer": "0xD39A1922fBe6c083f7A2d02CA05eA7bE2af52bA8"
+      }
+    }
+  ]
+}
