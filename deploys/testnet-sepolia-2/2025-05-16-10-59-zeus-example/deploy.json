@@ -1,0 +1,29 @@
+{
+  "name": "2025-05-16-10-59-zeus-example",
+  "env": "testnet-sepolia-2",
+  "segmentId": 0,
+  "segments": [
+    {
+      "type": "eoa",
+      "filename": "1-eoa.s.sol",
+      "id": 0
+    },
+    {
+      "type": "multisig",
+      "filename": "2-multisig-optional.s.sol",
+      "id": 1
+    },
+    {
+      "type": "multisig",
+      "filename": "3-multisig.s.sol",
+      "id": 2
+    }
+  ],
+  "metadata": [],
+  "upgrade": "zeus-example",
+  "upgradePath": "script/releases/zeus-example",
+  "phase": "",
+  "chainId": 11155111,
+  "startTime": "Fri May 16 2025 10:59:28 GMT-0700 (Pacific Daylight Time)",
+  "startTimestamp": 1747418368.479
+}
